@@ -3,7 +3,7 @@ import { publish, MessageContext } from 'lightning/messageService';
 import FILTERSCHANGEMC from '@salesforce/messageChannel/FiltersChange__c';
 
 const DELAY = 350;
-const MAX_PRICE = 1200000;
+const MAX_PRICE = 1200000000;
 
 export default class PropertyFilter extends LightningElement {
     searchKey = '';
